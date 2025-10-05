@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="icon" type="image/png" href="logo.png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Build Orders – Kage no Tōshi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cinzel', serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header {
+      background-color: #111;
+      padding: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-text {
+      font-size: 1.5em;
+      color: #FFD700;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #FFD700;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      font-size: 0.9em;
+      color: #666;
+    }
+
+    .build-card:hover {
+      transform: scale(1.02);
+    }
+
+    .build-card h3 {
+      margin-top: 0;
+      color: #FFD700;
+    }
+
+    .build-card p {
+      color: #ccc;
+      font-size: 0.95em;
+    }
+
+    .cultura-label {
+      font-size: 1.1em;
+      color: #FFD700;
+      margin-top: 60px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      width: 100%;
+    }
+
+    .dioses-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .dios-card {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 2px solid #FFD700;
+      transition: transform 0.3s, box-shadow 0.3s;
+      display: inline-block;
+    }
+
+    .dios-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .dios-card:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 15px #FFD700;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo-text">Kage no Tōshi</div>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="build-orders.html">Build Orders</a></li>
+        <li><a href="coaching.html">Coaching</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section">
+    <h2>Build Orders</h2>
+    <p>Domina el campo de batalla desde el primer minuto. Aquí encontrarás estrategias optimizadas para cada civilización, mapa y estilo de juego.</p>
+
+
+    <!-- Dioses flotantes por cultura -->
+    <div class="cultura-label">Japoneses</div>
+    <div class="dioses-grid">
+      <a href="https://youtube.com/enlace-japones1" target="_blank" class="dios-card"><img src="Dioses/Amaterasu.png" alt="Dios Japonés 1" /></a>
+      <a href="https://youtube.com/enlace-japones2" target="_blank" class="dios-card"><img src="Dioses/Tukuyomi.png" alt="Dios Japonés 2" /></a>
+      <a href="https://youtube.com/enlace-japones3" target="_blank" class="dios-card"><img src="Dioses/Susanoo.png" alt="Dios Japonés 3" /></a>
+    </div>
+
+    <div class="cultura-label">Chinos</div>
+    <div class="dioses-grid">
+      <a href="https://youtube.com/enlace-chino1" target="_blank" class="dios-card"><img src="Dioses/Fuxi.png" alt="Dios Chino 1" /></a>
+      <a href="https://youtube.com/enlace-chino2" target="_blank" class="dios-card"><img src="Dioses/Nuwa.png" alt="Dios Chino 2" /></a>
+      <a href="https://youtube.com/enlace-chino3" target="_blank" class="dios-card"><img src="Dioses/Shennong.png" alt="Dios Chino 3" /></a>
+    </div>
+
+    <div class="cultura-label">Griegos</div>
+    <div class="dioses-grid">
+      <a href="https://youtube.com/enlace-griego1" target="_blank" class="dios-card"><img src="Dioses/zeus.png" alt="Dios Griego 1" /></a>
+      <a href="https://youtube.com/enlace-griego2" target="_blank" class="dios-card"><img src="Dioses/Hades.png" alt="Dios Griego 2" /></a>
+      <a href="https://youtube.com/enlace-griego3" target="_blank" class="dios-card"><img src="Dioses/Poseidon.png" alt="Dios Griego 3" /></a>
+    </div>
+
+    <div class="cultura-label">Egipcios</div>
+    <div class="dioses-grid">
+      <a href="https://youtube.com/enlace-egipcio1" target="_blank" class="dios-card"><img src="Dioses/Ra.png" alt="Dios Egipcio 1" /></a>
+      <a href="https://youtube.com/enlace-egipcio2" target="_blank" class="dios-card"><img src="Dioses/isis.png" alt="Dios Egipcio 2" /></a>
+      <a href="https://youtube.com/enlace-egipcio3" target="_blank" class="dios-card"><img src="Dioses/Set.png" alt="Dios Egipcio 3" /></a>
+    </div>
+
+    <div class="cultura-label">Nórdicos</div>
+    <div class="dioses-grid">
+      <a href="https://youtube.com/enlace-nordico1" target="_blank" class="dios-card"><img src="Dioses/Thor.png" alt="Dios Nórdico 1" /></a>
+      <a href="https://youtube.com/enlace-nordico2" target="_blank" class="dios-card"><img src="Dioses/Odin.png" alt="Dios Nórdico 2" /></a>
+      <a href="https://youtube.com/enlace-nordico3" target="_blank" class="dios-card"><img src="Dioses/Loki.png" alt="Dios Nórdico 3" /></a>
+      <a href="https://youtube.com/enlace-nordico4" target="_blank" class="dios-card"><img src="Dioses/Freyr.png" alt="Dios Nórdico 4" /></a>
+
+    <div class="cultura-label">Atlantes</div>
+    <div class="dioses-grid">
+      <a href="https://youtube.com/enlace-atlante1" target="_blank" class="dios-card"><img src="Dioses/Urano.png" alt="Dios Atlante 1" /></a>
+      <a href="https://youtube.com/enlace-atlante2" target="_blank" class="dios-card"><img src="Dioses/Cronos.png" alt="Dios Atlante 2" /></a>
+      <a href="https://youtube.com/enlace-atlante3" target="_blank" class="dios-card"><img src="Dioses/Gea.png" alt="Dios Atlante 3" /></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kage no Tōshi. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
